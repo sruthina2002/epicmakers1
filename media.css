@@ -1,0 +1,207 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburgernav{
+        display: flex;
+    }
+
+   .home{
+    margin: 0 auto;
+    max-width: 1200px;
+   }
+   .swiper-slide .text-content{
+    margin: 0 120px 0 50px;
+}
+.bg-slider-thumbs{
+    bottom: 3em;
+}
+/* about */
+.about{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+    .about-container{
+        max-width: 80%;
+    }
+   .projects{
+    margin: 0 auto;
+    max-width: 1200px;
+   }
+    .pro-container{
+        max-width: 80%;
+    }
+    .grid{
+        gap: 2%;
+    }
+    .card{
+        padding: 10px;
+    }
+    .grid .card{
+        margin: 20px auto;
+    }
+    .card_img{
+        max-width: 90%;
+    }
+    .card-body{
+        padding: 20px;
+    }
+    .card-body p{
+        font-size: 15px;
+    }
+    .read_more{
+        padding: 5px;
+        width: 60%;
+        font-size: 12px;
+        margin-bottom: 20px;
+     }
+}
+@media only screen and (max-width: 1000px){
+    .home{
+        margin: 0 auto;
+        max-width: 1000px;
+       }
+       .swiper-slide .text-content .title{
+        font-size: 5em;
+       }
+     .swiper-slide .text-content{
+        margin: 0 70px 0 20px;
+    }
+    .swiper-slide .text-content p{
+        font-size: 4em;
+    }
+
+    .projects{
+        margin: 0 auto;
+        max-width: 1000px;
+       }
+       .about{
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    .grid{
+        grid-template-columns:1fr;
+    }
+    .pro-container{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:900px){
+    .home{
+        margin: 0 auto;
+        max-width: 900px;
+       }
+     .swiper-slide .text-content{
+        margin: 0 50px 0 30px;
+    }
+    .swiper-slide .text-content .title{
+        font-size: 4em;
+    }
+    .projects{
+        margin: 0 auto;
+        max-width: 900px;
+       }
+       .about{
+        margin: 0 auto;
+        max-width: 900px;
+    }
+    .timeline{
+        margin: 50px;
+    }
+    
+    .timeline ul li div{
+        width:250px;
+        }
+    .timeline ul li:nth-child(even) div{
+        left: calc(-260px - 55px + 6px);
+    
+    
+}
+@media screen and (max-width:600px){
+    .home{
+        margin: 0 auto;
+        max-width: 600px;
+       }
+     .swiper-slide .text-content{
+        margin: 0 50px 0 30px;
+    }
+    .swiper-slide .text-content .title{
+        font-size: 3.5em;
+    }
+    .swiper-slide .text-content p{
+        font-size: 3em;
+    }
+    .projects{
+        margin: 0 auto;
+        max-width: 600px;
+       }
+       .about{
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    h1{
+        font-size:13px;
+    }
+    .timeline ul li{
+        margin-left:0px;
+    }
+    .timeline ul li div{
+        width: calc(70vw - 90px);
+    }
+    .timeline ul li:nth-child(even) div{
+        left:45px;
+    }
+}
+@media (max-width: 600px) {
+    .contact-form {
+      grid-template-columns: 1fr;
+    }
+    .form:before{
+        top:-15px;
+        left:350px;
+    }
+    .text {
+        margin: 1rem 0 1.5rem 0;
+      }
+}
+@media (max-width: 450px){
+    .home{
+        margin: 0 auto;
+        max-width: 450px;
+       }
+     .swiper-slide .text-content{
+        margin: 0 30px 0 10px;
+    }
+    .swiper-slide .text-content .title{
+        font-size: 3em;
+    }
+    .swiper-slide .text-content p{
+        font-size: 2.5em;
+    }
+    .projects{
+        margin: 0 auto;
+        max-width: 450px;
+       }
+       .about{
+        margin: 0 auto;
+        max-width: 450px;
+    }
+.text,
+.information{
+    font-size: 0.8rem;
+  }
+.title {
+    font-size: 1.15rem;
+  }
+.btn {
+    padding: 0.45rem 1.2rem;
+  } 
+.input {
+    padding: 0.45rem 1.2rem;
+  }
+  .form:before{
+    top:-15px;
+    left:230px;
+}
+}}
